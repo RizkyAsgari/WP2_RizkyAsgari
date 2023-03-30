@@ -11,6 +11,7 @@
 <body>
     <center>
         <form action="<?= base_url('Matakuliah/cetak'); ?>" method="post">
+            <?= validation_errors() ?>
             <table>
                 <tr>
                     <th colspan="3">
